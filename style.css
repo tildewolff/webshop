@@ -69,7 +69,6 @@ img {
   display: flex;
   flex-direction: row;
   list-style: none;
-  border-bottom: 1px solid #b0fff6;
   padding: 20px 40px;
   background-color: #f7f7f7;
 }
@@ -85,8 +84,7 @@ img {
   font-family: "Abel", sans-serif;
   font-size: 24px;
   color: black;
-  padding: 0px 30px;
-  border-right: solid 1px #04d8bf;
+  padding: 0px 20px;
 }
 
 .last_nav p {
@@ -167,4 +165,60 @@ footer p {
   color: #b0fff6;
   font-family: "Abel", sans-serif;
   padding: 10px;
+}
+
+.product_list_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product_list_item {
+  width: 250px;
+}
+
+.out_of_stock img {
+  filter: opacity(0.3);
+}
+
+.product_prices {
+  display: flex;
+  flex-direction: row;
+  font-family: "Abel", sans-serif;
+}
+
+.discounted .standard_price {
+  text-decoration: line-through;
+}
+
+.out_of_stock .product_prices {
+  display: none;
+}
+
+.discounted .sale_price {
+  color: #006f62;
+  display: block;
+}
+
+.sale_price {
+  padding-right: 10px;
+  display: none;
+}
+
+.out_of_stock_price {
+  background-color: #d9d9d9;
+  text-align: center;
+  padding: 5px;
+}
+
+.product_list_item p {
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+
+.brand_and_type {
+  color: #8e8e8e;
 }
