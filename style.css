@@ -8,6 +8,26 @@ img {
   width: 100%;
 }
 
+.abel-regular {
+  font-family: "Abel", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oswald {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -43,4 +63,108 @@ img {
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.flex_header {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  border-bottom: 1px solid #b0fff6;
+  padding: 20px 40px;
+  background-color: #f7f7f7;
+}
+
+.flex_header li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.flex_header p {
+  margin-top: 10px;
+  font-family: "Abel", sans-serif;
+  font-size: 24px;
+  color: black;
+  padding: 0px 30px;
+  border-right: solid 1px #04d8bf;
+}
+
+.last_nav p {
+  border-right: transparent;
+}
+
+.logo {
+  margin-right: auto;
+  display: flex;
+}
+
+.logo h1 {
+  padding-top: 5px;
+  padding-left: 20px;
+  font-family: "Abel", sans-serif;
+  font-size: 32px;
+  color: #006f62;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.flex_header p:hover {
+  color: #4bfbe6;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #006f62;
+  font-size: 48px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.category_list_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  gap: 20px 80px;
+}
+
+.category_list_container a {
+  text-decoration: none;
+  color: black;
+}
+
+.category_list_container h3 {
+  background-color: #d9d9d9;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Abel", sans-serif;
+  padding: 15px;
+}
+
+.category_list_container h3:hover {
+  background-color: #b0fff6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer {
+  background-color: #383838;
+  margin-top: auto;
+}
+
+footer p {
+  color: #b0fff6;
+  font-family: "Abel", sans-serif;
+  padding: 10px;
 }
