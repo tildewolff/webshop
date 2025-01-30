@@ -275,6 +275,7 @@ footer p {
 .designation {
   font-family: "Abel", sans-serif;
   margin-top: 100px;
+  text-transform: uppercase;
 }
 
 .basket_btn p {
