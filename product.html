@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product - Webshop</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script src="product.js" defer></script>
+    <script src="accordion.js" defer></script>
   </head>
 
   <body>
     <header>
       <nav>
         <ul class="flex_header">
-          <li>
+          <li class="logo">
+            <img src="assets/logo.svg" alt="Logo" />
             <a href="index.html"><h1>FSHN_R_US</h1></a>
           </li>
           <li>
@@ -29,74 +38,9 @@
     </header>
 
     <main>
-      <h4>APPAREL / TOPWEAR / JACKETS</h4>
-
-      <div class="grid_1-1">
-        <img src="https://kea-alt-del.dk/t7/images/webp/640/1528.webp" />
-
-        <div class="product_description">
-          <h2>BLACK FLEECE JACKET</h2>
-
-          <div class="product_prices">
-            <p class="standard_price">3999 kr.</p>
-            <p class="sale_price">3950 kr.</p>
-          </div>
-
-          <p>
-            Black jacket made of blended fabric, has full sleeves with ribbed
-            cuffs, full front zippered placket, spread collar, a patch pocket on
-            the left chest, ferrari branding on left chest, Italy's flag colours
-            above the pocket and at the hemline.
-          </p>
-
-          <a href="">ADD TO BASKET</a>
-
-          <button class="accordion">DETAILS</button>
-          <div class="panel">
-            <h4>Season:</h4>
-            <p>Fall</p>
-            <h4>Production Year:</h4>
-            <p>2010</p>
-            <h4>Useage:</h4>
-            <p>Sports</p>
-            <h4>Variant Name:</h4>
-            <p>Ferrari Fleece</p>
-            <h4>Brand:</h4>
-            <p>Puma</p>
-
-            <p class="brand_description">
-              Puma's Ferrari merchandise never goes out of demand. The brand
-              sticks to its minimalist style while flaunting Italian colours on
-              this jacket. Pair this with denims and a sober tee.
-            </p>
-
-            <img
-              class="brand_image"
-              src="http://assets.myntassets.com/assets/images/2015/11/17/11447736932686-113016-3ff8sf.jpg"
-            />
-          </div>
-
-          <button class="accordion">WASH CARE</button>
-          <div class="panel">
-            <ul>
-              <li>Gentle machine wash in cool water</li>
-              <li>Do not bleach</li>
-              <li>Tumble dry at low temperature</li>
-              <li>Warm iron</li>
-              <li>Do not dry clean</li>
-            </ul>
-          </div>
-
-          <button class="accordion">MODEL STATISTICS</button>
-          <div class="panel">
-            <p>The model wears a size M with height 6' and shoulders 18”</p>
-          </div>
-        </div>
-      </div>
-
-      <script src="accordion.js"></script>
+      <div class="product_item"></div>
     </main>
 
-    <footer><p>&copy; tildewolff.com 2025, All Rights Reserved</p></footer>
+    <footer><p>&copy; tildewolff.com 2025, ALL RIGHTS RESERVED</p></footer>
   </body>
 </html>
